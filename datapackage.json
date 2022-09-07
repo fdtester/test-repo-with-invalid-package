@@ -1,20 +1,4 @@
 {
   "name": "invalid-package",
-  "resources": [
-    { "name": "first-resource",
-      "path": "table.xls",
-      "schema": {
-        "fields": [
-          {
-            "name": "id",
-            "type": "number"
-          },
-          {
-            "name": "name",
-            "type": "string"
-          }
-        ]
-      }
-    }
-  ]
+  "resources": {}
 }
