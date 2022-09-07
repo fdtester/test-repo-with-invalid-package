@@ -1,5 +1,5 @@
 {
-  "name": "test-tabulator",
+  "name": "invalid-package",
   "resources": [
     { "name": "first-resource",
       "path": "table.xls",
@@ -15,19 +15,6 @@
           }
         ]
       }
-    },
-    {"name": "number-two", "path": "table-reverse.csv",
-      "schema": {
-        "fields": [
-          {
-            "name": "id",
-            "type": "integer"
-          },
-          {
-            "name": "name",
-            "type": "string"
-          }
-        ]
-      }}
+    }
   ]
 }
